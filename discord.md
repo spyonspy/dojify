@@ -120,8 +120,14 @@ Will be shown on dojify as
 
 #### Put Credit Spread
 
-#### Iron Condor
-to be added
+#### Sell Iron Condor
+>!at sto amzn 3500/3600c 3000/2900p 10/09 @-10 q1
+
+![Sell Iron Condor](/public/images/sell-ic.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Sell Iron Condor on dojify](/public/images/sell-ic-dojify.png){:class="img-responsive"}
+
 #### buy call of different dates
 to be added
 #### sell call of different dates
