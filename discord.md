@@ -100,25 +100,35 @@ Will be shown on dojify as
 to be added
 #### Sell Put
 to be added
-#### Debit Spread
+#### Call Debit Spread
 >!at bto amzn 3500/3600c 10/09 @10 q1
 
-![STO call](/public/images/debit-spread.png){:class="img-responsive"}
+![Call Debit Spread](/public/images/call-debit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![STO call on dojify](/public/images/debit-spread-dojify.png){:class="img-responsive"}
+![call Debit Spread on dojify](/public/images/call-debit-spread-dojify.png){:class="img-responsive"}
 
-#### Credit Spread
-to be added
+#### Call Credit Spread
+>!at sto amzn 3500/3600c 10/09 @-10 q1
+
+![Call Credit Spread](/public/images/call-credit-spread.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Call Credit Spread on dojify](/public/images/call-credit-spread-dojify.png){:class="img-responsive"}
+
+#### Put Debit Spread
+
+#### Put Credit Spread
+
 #### Iron Condor
 to be added
 #### buy call of different dates
 to be added
 #### sell call of different dates
 to be added
-#### buy call of different dates
+#### buy put of different dates
 to be added
-#### sell call of different dates
+#### sell put of different dates
 
 Feel free to reach out [support@dojify.com](mailto:support@dojify.com){:target="_blank"} for any questions and feedback.
 
