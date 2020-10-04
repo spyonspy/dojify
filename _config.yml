@@ -3,17 +3,17 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
-url:              https://github.com/karloespiritu/blackdoc
+title:            Dojify
+tagline:          Learn, Earn and Share
+description:      "Get connected with the expert Options Traders. Log, Share and Analyze your trades, discuss with the fellow traders and take your options trading skill to the next level."
+url:              https://dojify.com
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
 author:
-  name:           Karlo Espiritu
-  url:            https://twitter.com/karloespiritu
+  name:           spyonspy
+  url:            https://twitter.com/dojify
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -23,9 +23,3 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-
-# Custom vars
-version:            2.0.1
-
-github:
-  repo:             https://github.com/karloespiritu/blackdoc

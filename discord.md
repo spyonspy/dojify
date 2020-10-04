@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Discord Bot
 ---
 
 <p class="message">
