@@ -83,18 +83,18 @@ Input is NOT case sensitive so feel free to enter lower case or upper case lette
 
 >!at bto amzn 3500c 10/02 @8 Q1
 
-![BTO call](/public/images/bto-call.png/200x200)
+![BTO call](/public/images/bto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO call on dojify](/public/images/bto-call-dojify.png/200x200)
+![BTO call on dojify](/public/images/bto-call-dojify.png){:class="img-responsive"}
 
 #### Sell Call
 
 >!at sto amzn 3500c 10/02 @-5 Q1
-![STO call](/public/images/sto-call.png/200x200)
+![STO call](/public/images/sto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![STO call on dojify](/public/images/sto-call-dojify.png/200x200)
+![STO call on dojify](/public/images/sto-call-dojify.png){:class="img-responsive"}
 
 #### Buy Put
 to be added
