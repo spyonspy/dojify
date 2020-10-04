@@ -153,9 +153,22 @@ Will be shown on dojify as
 ![Sell Iron Condor on dojify](/public/images/sell-ic-dojify.png){:class="img-responsive"}
 
 #### buy call of different dates
-to be added
+
+>!at bto amzn 3500c 10/02 3600c 11/02 @20 Q1
+
+![Buy calls](/public/images/bto-calls.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Buy calls on dojify](/public/images/bto-calls-dojify.png){:class="img-responsive"}
+
 #### sell call of different dates
-to be added
+>!at sto amzn 3500c 10/02 3600c 11/02 @-20 Q1
+
+![Sell calls](/public/images/sell-calls.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Sell calls on dojify](/public/images/sell-calls-dojify.png){:class="img-responsive"}
+
 #### buy put of different dates
 to be added
 #### sell put of different dates
