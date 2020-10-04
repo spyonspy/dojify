@@ -97,9 +97,21 @@ Will be shown on dojify as
 ![STO call on dojify](/public/images/sto-call-dojify.png){:class="img-responsive"}
 
 #### Buy Put
-to be added
+>!at bto amzn 3000p 10/09 @8 Q1
+
+![BTO put](/public/images/bto-put.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![BTO put on dojify](/public/images/bto-put-dojify.png){:class="img-responsive"}
+
 #### Sell Put
-to be added
+>!at sto amzn 3000p 10/09 @-8 Q1
+
+![STO put](/public/images/sto-put.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![BTO put on dojify](/public/images/sto-put-dojify.png){:class="img-responsive"}
+
 #### Call Debit Spread
 >!at bto amzn 3500/3600c 10/09 @10 q1
 
