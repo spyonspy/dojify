@@ -129,8 +129,20 @@ Will be shown on dojify as
 ![Call Credit Spread on dojify](/public/images/call-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Debit Spread
+>!at bto amzn 3000/2900p 10/09 @10 q1
+
+![Put Debit Spread](/public/images/put-debit-spread.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Put Debit Spread on dojify](/public/images/put-debit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Credit Spread
+>!at sto amzn 3000/2900p 10/09 @-10 q1
+
+![Put Credit Spread](/public/images/put-credit-spread.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![Put Credit Spread on dojify](/public/images/put-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Iron Condor
 >!at sto amzn 3500/3600c 3000/2900p 10/09 @-10 q1
@@ -181,6 +193,3 @@ for exampe
 On dojify user stats is shown by visiting a user profile
 
 ![User stats on dojify](/public/images/user-stats-dojify.png){:class="img-responsive"}
-
-
-## Change dojify username
