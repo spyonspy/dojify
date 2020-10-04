@@ -44,6 +44,10 @@ For example
 Add trade command has following format
 >!at {trade-type} {symbol} {options} @{price-per-contract} q{quantity}
 
+<p class="message">
+TLDR: Feel free to skip below section and jump to examples.
+</p>
+
 **trade-type**: can be either ``BTO`` or ``STO``
 
 **symbol**: Stock symbol for example ``AMZN``, ``GOOGL``, ``FB`` etc.
@@ -169,12 +173,6 @@ Will be shown on dojify as
 Will be shown on dojify as
 ![Sell calls on dojify](/public/images/sell-calls-dojify.png){:class="img-responsive"}
 
-#### buy put of different dates
-to be added
-#### sell put of different dates
-
-Feel free to reach out [support@dojify.com](mailto:support@dojify.com){:target="_blank"} for any questions and feedback.
-
 ## Close Trade
 Quote the response from the open trade or list trades and use the close command.
 Close command Format is
@@ -206,3 +204,7 @@ for exampe
 On dojify user stats is shown by visiting a user profile
 
 ![User stats on dojify](/public/images/user-stats-dojify.png){:class="img-responsive"}
+
+
+***Want more examples?***
+Feel free to reach out to [support@dojify.com](mailto:support@dojify.com){:target="_blank"} for any requests, questions and feedbacks. Thank you!
