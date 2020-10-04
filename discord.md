@@ -120,7 +120,7 @@ Will be shown on dojify as
 
 #### Put Credit Spread
 
-#### Sell Iron Condor
+#### Iron Condor
 >!at sto amzn 3500/3600c 3000/2900p 10/09 @-10 q1
 
 ![Sell Iron Condor](/public/images/sell-ic.png){:class="img-responsive"}
