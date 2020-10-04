@@ -114,10 +114,39 @@ to be added
 to be added
 #### sell call of different dates
 
-Feel free to reach out [support@dojify.com](mailto:support@dojify.com) {:target="_blank"} for any questions and feedback.
+Feel free to reach out [support@dojify.com](mailto:support@dojify.com){:target="_blank"} for any questions and feedback.
 
 ## Close Trade
-to be added
+Quote the response from the open trade or list trades and use the close command.
+Close command Format is
+
+>!ct {closing-price-per-contract}
+
+In case of ``BTO``, If close price is higher than the open price then its profitable.
+
+In case of ``STO``, If close price is lower than absolute value of the open price then its profitable. For exampe if open price is -5 then close price should be less than 5 to be profitable.
+
+### Example
+>!ct 0
+
+![Close Trade](/public/images/ct.png){:class="img-responsive"}
+
+On Dojify, it will be shown as
+
+![Close Trade Dojify](/public/images/ct-dojify.png){:class="img-responsive"}
+
+
 ## See user stats
-to be added
+>!user-stats {username}
+
+for exampe 
+>!user-stats spyonspy
+
+![User stats](/public/images/user-stats.png){:class="img-responsive"}
+
+On dojify user stats is shown by visiting a user profile
+
+![User stats on dojify](/public/images/user-stats-dojify.png){:class="img-responsive"}
+
+
 ## Change dojify username
