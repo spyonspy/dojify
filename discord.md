@@ -101,7 +101,13 @@ to be added
 #### Sell Put
 to be added
 #### Debit Spread
-to be added
+>!at bto amzn 3500/3600c 10/09 @10 q1
+
+![STO call](/public/images/debit-spread.png){:class="img-responsive"}
+
+Will be shown on dojify as
+![STO call on dojify](/public/images/debit-spread-dojify.png){:class="img-responsive"}
+
 #### Credit Spread
 to be added
 #### Iron Condor
