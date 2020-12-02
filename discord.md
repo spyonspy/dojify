@@ -33,22 +33,22 @@ Make sure Dojify Bot is enabled in the discord channel and it has both read and 
 Please follow these steps for attching discordID to your dojify username.
 * Register on [dojify.com](dojify.com){:target="_blank"}. Skip this step if you are already registered.
 * Update your [profie](https://dojify.com/profile){:target="_blank"} with the username.
-* From discord send following command '!configure {dojify-username}' without quotes. 
+* From discord send following command `configure {dojify-username}`.
 For example 
->!configure spyonspy
+>`configure spyonspy`
 * Go to [profie](https://dojify.com/profile){:target="_blank"} and click *verify* in Discord Id.
 * All set you are done!
 
 # Commands
 ## Add Trade
 Add trade command has following format
->!at {trade-type} {symbol} {options} @{price-per-contract} q{quantity}
+>{trade-type} {symbol} {options} @ {price-per-contract} q {quantity}
 
 <p class="message">
 TLDR: Feel free to skip below section and jump to examples.
 </p>
 
-**trade-type**: can be either ``BTO`` or ``STO``
+**trade-type**: can be either ``BTO`` or ``STO``. BTO for buying the option and STO for Selling the option.
 
 **symbol**: Stock symbol for example ``AMZN``, ``GOOGL``, ``FB`` etc.
 
@@ -75,6 +75,9 @@ When trade type is ``STO`` first strike price is sell, second strike price is bu
 <p class="message">
 When you collect premium for example when you sell credit spread, price-per-contract must be negative.
 </p>
+<p class="message">
+Not that quantity is optional, by default it uses 1 quantity.
+</p>
 
 **quantity**: no. of contracts opened.
 
@@ -83,90 +86,106 @@ Input is NOT case sensitive so feel free to enter lower case or upper case lette
 </p>
 
 ### Examples
+
+<p class="message">
+Update: do not use `!at`, `!ct`  and `!` prefix in the command. We made it more flexible. 
+
+Please also note that '@' and price per contract is separated by space.
+for example
+`AMZN 500C 11/12 @ 1`
+
+`Q` and quntity  is also separated by space.
+
+for example `AMZN 500C 11/12 @ 1 q 10`
+
+Example images will be updated soon.
+</p>
+
+
 #### Buy call
 
->!at bto amzn 3500c 10/02 @8 Q1
+>bto amzn 3500c 10/02 @ 8 Q 1
 
-![BTO call](https://dojify-images.s3.us-east-2.amazonaws.com/bto-call.png){:class="img-responsive"}
+![BTO call](/public/images/bto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO call on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-call-dojify.png){:class="img-responsive"}
+![BTO call on dojify](/public/images/bto-call-dojify.png){:class="img-responsive"}
 
 #### Sell Call
 
->!at sto amzn 3500c 10/02 @-5 Q1
-![STO call](https://dojify-images.s3.us-east-2.amazonaws.com/sto-call.png){:class="img-responsive"}
+>sto amzn 3500c 10/02 @-5 Q 1
+![STO call](/public/images/sto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![STO call on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sto-call-dojify.png){:class="img-responsive"}
+![STO call on dojify](/public/images/sto-call-dojify.png){:class="img-responsive"}
 
 #### Buy Put
->!at bto amzn 3000p 10/09 @8 Q1
+>bto amzn 3000p 10/09 @ 8 Q1
 
-![BTO put](https://dojify-images.s3.us-east-2.amazonaws.com/bto-put.png){:class="img-responsive"}
+![BTO put](/public/images/bto-put.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO put on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-put-dojify.png){:class="img-responsive"}
+![BTO put on dojify](/public/images/bto-put-dojify.png){:class="img-responsive"}
 
 #### Sell Put
->!at sto amzn 3000p 10/09 @-8 Q1
+>sto amzn 3000p 10/09 @ -8 Q 1
 
-![STO put](https://dojify-images.s3.us-east-2.amazonaws.com/sto-put.png){:class="img-responsive"}
+![STO put](/public/images/sto-put.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO put on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sto-put-dojify.png){:class="img-responsive"}
+![BTO put on dojify](/public/images/sto-put-dojify.png){:class="img-responsive"}
 
 #### Call Debit Spread
->!at bto amzn 3500/3600c 10/09 @10 q1
+>bto amzn 3500/3600c 10/09 @ 10 q 1
 
-![Call Debit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/call-debit-spread.png){:class="img-responsive"}
+![Call Debit Spread](/public/images/call-debit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![call Debit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/call-debit-spread-dojify.png){:class="img-responsive"}
+![call Debit Spread on dojify](/public/images/call-debit-spread-dojify.png){:class="img-responsive"}
 
 #### Call Credit Spread
->!at sto amzn 3500/3600c 10/09 @-10 q1
+>sto amzn 3500/3600c 10/09 @ -10 q 1
 
-![Call Credit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/call-credit-spread.png){:class="img-responsive"}
+![Call Credit Spread](/public/images/call-credit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Call Credit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/call-credit-spread-dojify.png){:class="img-responsive"}
+![Call Credit Spread on dojify](/public/images/call-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Debit Spread
->!at bto amzn 3000/2900p 10/09 @10 q1
+>bto amzn 3000/2900p 10/09 @ 10 q 1
 
-![Put Debit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/put-debit-spread.png){:class="img-responsive"}
+![Put Debit Spread](/public/images/put-debit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Put Debit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/put-debit-spread-dojify.png){:class="img-responsive"}
+![Put Debit Spread on dojify](/public/images/put-debit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Credit Spread
->!at sto amzn 3000/2900p 10/09 @-10 q1
+>sto amzn 3000/2900p 10/09 @ -10 q 1
 
-![Put Credit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/put-credit-spread.png){:class="img-responsive"}
+![Put Credit Spread](/public/images/put-credit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Put Credit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/put-credit-spread-dojify.png){:class="img-responsive"}
+![Put Credit Spread on dojify](/public/images/put-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Iron Condor
->!at sto amzn 3500/3600c 3000/2900p 10/09 @-10 q1
+>sto amzn 3500/3600c 3000/2900p 10/09 @ -10 q 1
 
-![Sell Iron Condor](https://dojify-images.s3.us-east-2.amazonaws.com/sell-ic.png){:class="img-responsive"}
+![Sell Iron Condor](/public/images/sell-ic.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Sell Iron Condor on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sell-ic-dojify.png){:class="img-responsive"}
+![Sell Iron Condor on dojify](/public/images/sell-ic-dojify.png){:class="img-responsive"}
 
 #### buy call of different dates
 
->!at bto amzn 3500c 10/02 3600c 11/02 @20 Q1
+>bto amzn 3500c 10/02 3600c 11/02 @ 20 Q 1
 
-![Buy calls](https://dojify-images.s3.us-east-2.amazonaws.com/bto-calls.png){:class="img-responsive"}
+![Buy calls](/public/images/bto-calls.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Buy calls on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-calls-dojify.png){:class="img-responsive"}
+![Buy calls on dojify](/public/images/bto-calls-dojify.png){:class="img-responsive"}
 
 #### sell call of different dates
->!at sto amzn 3500c 10/02 3600c 11/02 @-20 Q1
+>sto amzn 3500c 10/02 3600c 11/02 @ -20 Q 1
 
 ![Sell calls](/public/images/sell-calls.png){:class="img-responsive"}
 
@@ -174,19 +193,19 @@ Will be shown on dojify as
 ![Sell calls on dojify](/public/images/sell-calls-dojify.png){:class="img-responsive"}
 
 ## Close Trade
-Quote the response from the open trade or list trades and use the close command.
-Close command Format is
+For closing a trade 
+* use `STC` if you opened trade using `BTO`
+* use `BTC` if you opened trade using `STO`
 
->!ct {closing-price-per-contract}
+You can skip the quantity 
+Example 
 
-In case of ``BTO``, If close price is higher than the open price then its profitable.
+
+>btc amzn 3500c 10/02 3600c 11/02 @ 10
+
+In case of ``BTO``, If close price is higher than the open price then its profitable. 
 
 In case of ``STO``, If close price is lower than absolute value of the open price then its profitable. For exampe if open price is -5 then close price should be less than 5 to be profitable.
-
-### Example
->!ct 0
-
-![Close Trade](/public/images/ct.png){:class="img-responsive"}
 
 On Dojify, it will be shown as
 
@@ -194,10 +213,10 @@ On Dojify, it will be shown as
 
 
 ## See user stats
->!user-stats {username}
+>user-stats {username}
 
 for exampe 
->!user-stats spyonspy
+>user-stats spyonspy
 
 ![User stats](/public/images/user-stats.png){:class="img-responsive"}
 
