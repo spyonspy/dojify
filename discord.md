@@ -87,83 +87,83 @@ Input is NOT case sensitive so feel free to enter lower case or upper case lette
 
 >!at bto amzn 3500c 10/02 @8 Q1
 
-![BTO call](/public/images/bto-call.png){:class="img-responsive"}
+![BTO call](https://dojify-images.s3.us-east-2.amazonaws.com/bto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO call on dojify](/public/images/bto-call-dojify.png){:class="img-responsive"}
+![BTO call on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-call-dojify.png){:class="img-responsive"}
 
 #### Sell Call
 
 >!at sto amzn 3500c 10/02 @-5 Q1
-![STO call](/public/images/sto-call.png){:class="img-responsive"}
+![STO call](https://dojify-images.s3.us-east-2.amazonaws.com/sto-call.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![STO call on dojify](/public/images/sto-call-dojify.png){:class="img-responsive"}
+![STO call on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sto-call-dojify.png){:class="img-responsive"}
 
 #### Buy Put
 >!at bto amzn 3000p 10/09 @8 Q1
 
-![BTO put](/public/images/bto-put.png){:class="img-responsive"}
+![BTO put](https://dojify-images.s3.us-east-2.amazonaws.com/bto-put.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO put on dojify](/public/images/bto-put-dojify.png){:class="img-responsive"}
+![BTO put on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-put-dojify.png){:class="img-responsive"}
 
 #### Sell Put
 >!at sto amzn 3000p 10/09 @-8 Q1
 
-![STO put](/public/images/sto-put.png){:class="img-responsive"}
+![STO put](https://dojify-images.s3.us-east-2.amazonaws.com/sto-put.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![BTO put on dojify](/public/images/sto-put-dojify.png){:class="img-responsive"}
+![BTO put on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sto-put-dojify.png){:class="img-responsive"}
 
 #### Call Debit Spread
 >!at bto amzn 3500/3600c 10/09 @10 q1
 
-![Call Debit Spread](/public/images/call-debit-spread.png){:class="img-responsive"}
+![Call Debit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/call-debit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![call Debit Spread on dojify](/public/images/call-debit-spread-dojify.png){:class="img-responsive"}
+![call Debit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/call-debit-spread-dojify.png){:class="img-responsive"}
 
 #### Call Credit Spread
 >!at sto amzn 3500/3600c 10/09 @-10 q1
 
-![Call Credit Spread](/public/images/call-credit-spread.png){:class="img-responsive"}
+![Call Credit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/call-credit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Call Credit Spread on dojify](/public/images/call-credit-spread-dojify.png){:class="img-responsive"}
+![Call Credit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/call-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Debit Spread
 >!at bto amzn 3000/2900p 10/09 @10 q1
 
-![Put Debit Spread](/public/images/put-debit-spread.png){:class="img-responsive"}
+![Put Debit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/put-debit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Put Debit Spread on dojify](/public/images/put-debit-spread-dojify.png){:class="img-responsive"}
+![Put Debit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/put-debit-spread-dojify.png){:class="img-responsive"}
 
 #### Put Credit Spread
 >!at sto amzn 3000/2900p 10/09 @-10 q1
 
-![Put Credit Spread](/public/images/put-credit-spread.png){:class="img-responsive"}
+![Put Credit Spread](https://dojify-images.s3.us-east-2.amazonaws.com/put-credit-spread.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Put Credit Spread on dojify](/public/images/put-credit-spread-dojify.png){:class="img-responsive"}
+![Put Credit Spread on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/put-credit-spread-dojify.png){:class="img-responsive"}
 
 #### Iron Condor
 >!at sto amzn 3500/3600c 3000/2900p 10/09 @-10 q1
 
-![Sell Iron Condor](/public/images/sell-ic.png){:class="img-responsive"}
+![Sell Iron Condor](https://dojify-images.s3.us-east-2.amazonaws.com/sell-ic.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Sell Iron Condor on dojify](/public/images/sell-ic-dojify.png){:class="img-responsive"}
+![Sell Iron Condor on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/sell-ic-dojify.png){:class="img-responsive"}
 
 #### buy call of different dates
 
 >!at bto amzn 3500c 10/02 3600c 11/02 @20 Q1
 
-![Buy calls](/public/images/bto-calls.png){:class="img-responsive"}
+![Buy calls](https://dojify-images.s3.us-east-2.amazonaws.com/bto-calls.png){:class="img-responsive"}
 
 Will be shown on dojify as
-![Buy calls on dojify](/public/images/bto-calls-dojify.png){:class="img-responsive"}
+![Buy calls on dojify](https://dojify-images.s3.us-east-2.amazonaws.com/bto-calls-dojify.png){:class="img-responsive"}
 
 #### sell call of different dates
 >!at sto amzn 3500c 10/02 3600c 11/02 @-20 Q1
